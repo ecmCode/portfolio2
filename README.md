@@ -6,8 +6,8 @@ The page's look shall fit into all devices, including typical desktop(1440px), t
 
 Dependencies I will use in this project:
     
-    react-router-dom for routing though pages a
-    react-bootstrap for styling
-    date-fns for time formats 
-    fontawesome for icons
+    - react-router-dom for routing
+    - react-bootstrap for styling
+    - date-fns for time formats 
+    - fontawesome for icons
     
