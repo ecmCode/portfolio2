@@ -1,0 +1,21 @@
+.NotFound{
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nf-title{
+    font-size: 5em;
+    line-height: 1em;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+.nf-des{
+    font-size: 2em;
+    line-height: 1em;
+    margin: 1em;
+}

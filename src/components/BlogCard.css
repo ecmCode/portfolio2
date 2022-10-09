@@ -1,0 +1,44 @@
+.b-box{
+    box-shadow:0 0 10px var(--black);
+    background-color:var(--blacktr30);
+    padding:1.5em;
+    border-radius:10px;
+    transition: var(--transition-fast);
+}
+
+.b-title{
+    font-size: 2em;
+    margin: 0.5em;
+    font-family: var(--font3);
+}
+
+.b-digest{
+    font-style: italic;    
+}
+
+.b-date{
+    text-align: right;
+    margin: 0.8em;
+    font-size: 0.8em;
+}
+
+.b-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.b-box:active{
+    filter: brightness(1.5);
+    background-color:var(--blacktr60);
+}
+@media (max-width:768px) {
+    .b-container{
+      grid-template-columns: auto;
+    }
+    
+    .b-box{
+        box-shadow:0 0 10px var(--white);
+        width:80vw;
+    }
+  }

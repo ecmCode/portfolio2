@@ -1,12 +1,12 @@
 import { useState } from 'react'
+
 import reactLogo from './assets/react.svg'
-import './App.css'
+import './Home.css'
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
+    <div className="Home">
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -20,9 +20,6 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
@@ -31,4 +28,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

@@ -1,0 +1,14 @@
+.btn{
+    width: 10vw;
+    height: auto;
+    font-size: 1.5vw;
+    transition: var(--transition-fast);
+}
+
+
+@media (max-width:768px) {
+    .btn{
+        width: 22vw;
+        font-size: 2.5vw;
+    }
+}

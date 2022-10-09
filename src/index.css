@@ -1,18 +1,35 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+/* VARIABLES */
+
+:root{
+  --transition-fast: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  --transition-slow: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  --white: #E7F6F2;
+  --lblue: #A5C9CA;
+  --dblue: #395B64;
+  --dbluetr60: rgba(58, 91, 100, 0.60);
+  --dbluetr30: rgba(58, 91, 100, 0.30);
+  --black: #2C3333;
+  --blacktr60: rgba(44, 51, 51, 0.60);
+  --blacktr30: rgba(45, 52, 52, 0.30);
+  --font1: 'Dancing Script', cursive;
+  --font2: 'Roboto', sans-serif;
+  --font3: 'Alegreya Sans SC', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  
   line-height: 24px;
-  font-weight: 400;
+  font-size: 16px;
+  font-family: var(--font2);
+  color: var(--white);
+  text-align: center;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  background-image: url(./assets/cosmos.jpg);
+  background-size: cover;
+  background-position:center;
 }
 
 a {
@@ -21,16 +38,9 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--dblue);
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
@@ -45,6 +55,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  color: white;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -54,17 +65,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
