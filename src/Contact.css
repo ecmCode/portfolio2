@@ -1,0 +1,40 @@
+.Contact{
+    background-color: var(--blacktr30);
+    box-sizing: border-box;
+    box-shadow:0 0 15px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 5vh auto;
+    transition: 0.5s ease;
+    animation: fadein 0.7s;
+    width:85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.map{
+
+}
+
+.sendmail{
+    
+}
+
+.sm-icons{
+    display: flex; 
+    justify-content: space-around;
+    opacity: 0.8;
+    width: 85%;
+    transition: var(--transition-slow);
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon:hover{
+    transform: scale(1.5);
+}

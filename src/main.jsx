@@ -8,7 +8,7 @@ import Home from './Home'
 import Projects from './Projects';
 import Blog from './Blog';
 import Contact from './Contact'
-import {NotFound} from "./NotFound";
+import NotFound from "./NotFound";
 
 import './index.css'
 

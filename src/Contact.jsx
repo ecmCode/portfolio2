@@ -1,5 +1,8 @@
 import './Home.css'
-import {useState} from "react";
+// import './Contact.css'
+// import {useState} from "react";
+
+// A contact page consists of google map with location pin, email sending function and social media links
 
 function Contact() {
   
@@ -30,18 +33,23 @@ function Contact() {
       </p>
       
       <div className="sm-icons" style={boxStyle}>
+
         <div className="icon" style={iconStyle}><i class="fa-brands fa-github fa-4x"/>
         Github
         </div>
+        
         <div className="icon" style={iconStyle}><i class="fa-brands fa-instagram fa-4x" />
         Instagram
         </div>
+        
         <div className="icon" style={iconStyle}><i class="fa-brands fa-youtube fa-4x" />
         Youtube
         </div>
+        
         <div className="icon" style={iconStyle}><i class="fa-brands fa-facebook fa-4x" />
         Facebook
         </div>
+
       </div>
       
     </div>
