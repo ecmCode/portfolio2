@@ -12,10 +12,10 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'fadein-slow': 'fadein 0.6s ease-in forwards',
-        'fadein-fast': 'fadein 0.3s ease-in forwards',
-        'fadeout-slow': 'fadeout 0.6s ease-in forwards',
-        'fadeout-fast': 'fadeout 0.3s ease-in forwards',
+        'fadein-slow': 'fadein 0.9s ease-in forwards',
+        'fadein-fast': 'fadein 0.5s ease-in forwards',
+        'fadeout-slow': 'fadeout 0.9s ease-in forwards',
+        'fadeout-fast': 'fadeout 0.5s ease-in forwards',
       },
       keyframes: {
         fadein: {
