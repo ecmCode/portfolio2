@@ -22,7 +22,7 @@ const WelcomePage = () => {
               <i class="fa-solid fa-angles-down mr-4"></i> 
               Scroll to continue
             </p>
-            <a href='#footer'>
+            <a href='#contact'>
               <button className="px-20">Contact Me</button>
             </a>
           </div>

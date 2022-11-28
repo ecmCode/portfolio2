@@ -70,7 +70,7 @@ const ContactForm = () => {
 const Footer = () => {
 
     return(
-        <div id="footer" className="flex flex-col md:flex-row justify-evenly items-center bg-gradient-to-tl from-primary to-secondary text-white py-12 px-8 shadow-xl">
+        <div id="contact" className="flex flex-col md:flex-row justify-evenly items-center bg-gradient-to-tl from-primary to-secondary text-white py-12 px-8 shadow-xl">
             
             <div className="w-full md:w-2/5 flex flex-col justify-center gap-4 items-center">
                 <h1 className="text-6xl py-2">Contact Me</h1>
@@ -90,8 +90,8 @@ const Footer = () => {
                     </div>
                 
                     <div>
-                        <p className="text-right">usermail@mail.com</p>
-                        <p className="text-right">+0 123 4567 890</p>
+                        <p className="text-right"><i className="fa-solid fa-envelope text-xl px-4"></i> usermail@mail.com</p>
+                        <p className="text-right"><i className="fa-solid fa-phone text-xl px-4"></i>  +0 123 4567 890</p>
                         <p className="text-right italic"> 
                             Some Road, Some City 12345,<br/>
                             Somewhere in the Earth   
