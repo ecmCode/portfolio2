@@ -5,7 +5,7 @@ export default function Header() {
     
     return(
         <header className="fixed top-0 drop-shadow-xl shadow-black flex flex-row justify-evenly items-center select-none py-4 text-2xl w-screen bg-title text-white bg-opacity-80 backdrop-blur-sm z-10 ">
-            <Link className="hover:text-secondary" to='/'>
+            <Link className="hover:text-secondary" to='portfolio/'>
                 Home
             </Link>
 
