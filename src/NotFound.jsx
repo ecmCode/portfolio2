@@ -13,7 +13,7 @@ function NotFound() {
                 <h1 className='text-center md:text-left animate-pulse px-10 '>404 Not Found.</h1> 
                 <div className='flex flex-col justify-center items-center md:items-end gap-10 animate-fadein-slow'>
                     <h3 className='text-center md:text-right'>Oops, seems like you are getting lost!</h3>
-                    <Link to='/'>
+                    <Link to='../'>
                         <button className='bg-title drop-shadow-lg px-48 md:px-10 text-xl'>Home</button>
                     </Link>
                 </div>

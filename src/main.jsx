@@ -16,22 +16,25 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className='h-screen overflow-hidden'>
       <BrowserRouter>
-        <Header />
+          <Header />
           <Routes>
             {/* Home page */}
-            <Route exact path='/' element={<Home />} />
-            
-            {/* More pages to be done:    
-                  
-            <Route path='/projects' element={<Projects />} />
-            <Route path='/blog' element={<Blog />} /> 
-            */}
+              <Route exact path='/portfolio' >
+                <Route index element={<Home />} />
+                <Route path='admin' element={<Admin/>} />
+                <Route path='404' element={<NotFound/>} />
+                <Route path='*' element={<Navigate to='404' />} />
+              </Route>
 
-            {/* Admin & 404 pages */}
+              {/* More pages to be done:    
+                    
+              <Route path='/projects' element={<Projects />} />
+              <Route path='/blog' element={<Blog />} /> 
+              */}
 
-            <Route path='/admin' element={<Admin/>} />
-            <Route path='/404' element={<NotFound/>} />
-            <Route path='*' element={<Navigate to='/404' />} />
+              {/* Admin & 404 pages */}
+
+              
           </Routes>
       </BrowserRouter>
     </div>

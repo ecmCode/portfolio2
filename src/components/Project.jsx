@@ -1,8 +1,8 @@
 const ProjectList = () => {
     
     const projects = [
-        {name: "404 Page", url: '/404'},
-        {name: "Admin Page", url: '/admin'},
+        {name: "404 Page", url: './404'},
+        {name: "Admin Page", url: './admin'},
         {name: "Blogger Page", url: 'https://ecmcode.github.io/blogger'},
         {name: "Todo List", url: 'https://ecmcode.github.io/todolist/'},
     ]
