@@ -21,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             {/* Home page */}
               <Route exact path='/portfolio' >
                 <Route index element={<Home />} />
+                {/* Admin & 404 pages */} 
                 <Route path='admin' element={<Admin/>} />
                 <Route path='404' element={<NotFound/>} />
                 <Route path='*' element={<Navigate to='404' />} />
@@ -32,7 +33,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <Route path='/blog' element={<Blog />} /> 
               */}
 
-              {/* Admin & 404 pages */}
 
               
           </Routes>
