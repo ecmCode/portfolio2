@@ -1,3 +1,5 @@
+import photo from "../assets/cat.jpg"
+
 
 const About = () => {
 
@@ -15,7 +17,7 @@ const About = () => {
           {/* Main */}
           <h1 className='text-7xl py-10'>About</h1>
           <div className="flex flex-col md:flex-row justify-evenly gap-y-10 items-center">
-            <img src="src/assets/cat.jpg" alt="portrait photo" className=" w-80 h-80 p-4 rounded ring-1 ring-title shadow-xl object-cover"/>
+            <img src={photo} alt="portrait photo" className=" w-80 h-80 p-4 rounded ring-1 ring-title shadow-xl object-cover"/>
             <div className='text-right flex flex-col gap-y-4 w-full md:w-1/3'>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maxime non dolorum, numquam iusto esse. Doloremque minima placeat odit incidunt in! Iusto voluptatibus possimus, hic excepturi ea minus repellat dolorem.</p>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est accusantium dicta non. Magnam inventore aspernatur officia maiores blanditiis deleniti voluptatem doloribus, architecto, libero, beatae voluptatibus quibusdam aperiam facere in minima?</p>
