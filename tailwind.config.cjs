@@ -33,9 +33,9 @@ module.exports = {
       title:colors.sky[900],
       primary: colors.sky[600],
       secondary: colors.cyan[500],
-      white:colors.sky[50],
+      white:colors.sky[100],
       black:colors.slate[900],
-      gray:colors.slate[500],
+      gray:colors.slate[400],
       // ...
     }
   },
