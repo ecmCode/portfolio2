@@ -5,7 +5,7 @@ const About = () => {
 
     return(
 
-        <div className='py-12 px-10 flex flex-col justify-evenly items-center relative overflow-hidden'>
+        <div className='py-12 px-4 sm:px-10 flex flex-col justify-evenly items-center relative overflow-hidden'>
           {/* Stripes */}
           <div className="w-full absolute -top-36 md:-top-72 -right-36 md:-right-72 flex flex-col">
             <hr className="w-full h-2 bg-title drop-shadow-lg rotate-[40deg] my-1"/>

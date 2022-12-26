@@ -14,8 +14,8 @@ const SkillBox = (props) => {
 const Skill = () => {
     
     return(
-        <div className="flex flex-col justify-center items-center">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-10 gap-10">
+        <div className="flex flex-col justify-center items-center w-full ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-10 gap-10 w-full">
                 
                 <SkillBox name="HTML5">
                     <i className="fa-brands fa-html5"/>

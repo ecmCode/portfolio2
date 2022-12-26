@@ -14,7 +14,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='h-screen overflow-hidden'>
       <BrowserRouter>
           <Header />
           <Routes>
@@ -33,10 +32,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <Route path='/blog' element={<Blog />} /> 
               */}
 
-
-              
           </Routes>
       </BrowserRouter>
-    </div>
   </React.StrictMode>
 )
