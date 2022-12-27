@@ -60,7 +60,7 @@ const WelcomePage = () => {
           {/*  Buttons  */}
           <div className={style.btns.box}>
             <p className={style.btns.scroll}>
-              <i class="fa-solid fa-angles-down mr-4"></i> 
+              <i className="fa-solid fa-angles-down mr-4"></i> 
               Scroll to continue
             </p>
             <a href='#contact'>
