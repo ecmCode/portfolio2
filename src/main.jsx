@@ -6,32 +6,26 @@ import Header from './Header'
 import Home from './Home'
 import NotFound from "./NotFound";
 import Admin from './Admin';
-
-// import Projects from './Projects';
-// import Blog from './Blog';
+import Projects from './Projects';
+import Blog from './Blog';
 
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <React.StrictMode id="container">
       <BrowserRouter>
           <Header />
           <Routes>
             {/* Home page */}
-              <Route exact path='/portfolio' >
+              <Route exact path='/portfolio'>
                 <Route index element={<Home />} />
                 {/* Admin & 404 pages */} 
+                <Route path='projects' element={<Projects />} />
+                <Route path='blog' element={<Blog />} /> 
                 <Route path='admin' element={<Admin/>} />
                 <Route path='404' element={<NotFound/>} />
                 <Route path='*' element={<Navigate to='404' />} />
               </Route>
-
-              {/* More pages to be done:    
-                    
-              <Route path='/projects' element={<Projects />} />
-              <Route path='/blog' element={<Blog />} /> 
-              */}
-
           </Routes>
       </BrowserRouter>
   </React.StrictMode>

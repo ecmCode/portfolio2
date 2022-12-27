@@ -12,9 +12,13 @@
         min-h-screen h-auto w-screen
         /* Colors */
         text-black bg-white;
-        ;
+        
     }
-
+    /* Hide scrollbar */
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    
     button{
         @apply px-10 py-4 ring-2 ring-transparent rounded shadow-md bg-secondary text-white hover:text-secondary font-semibold hover:bg-white hover:ring-secondary transition duration-200 w-full
     }
@@ -25,11 +29,4 @@
     textarea{
         @apply bg-transparent p-4 border-2 border-title focus:border-secondary resize-none outline-none
     }
-}
-
-@layer components{
-    #container::-webkit-scrollbar{
-        display: none;
-    }
-
 }
