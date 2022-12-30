@@ -1,23 +1,16 @@
 import React from 'react'
 import {BrowserRouter,Routes,Route, Navigate } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
-
-import Header from './Header'
-import Home from './Home'
-import NotFound from "./NotFound";
-import Admin from './Admin';
-import Projects from './Projects';
-import Blog from './Blog';
-
+import { Admin, Blog, Home, NotFound, Projects} from './pages';
+import { baseURL } from '../routeConfig'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode id="container">
       <BrowserRouter>
-          <Header />
           <Routes>
             {/* Home page */}
-              <Route exact path='/portfolio'>
+              <Route exact path={baseURL}>
                 <Route index element={<Home />} />
                 {/* Admin & 404 pages */} 
                 <Route path='projects' element={<Projects />} />
