@@ -49,9 +49,15 @@ const Header = () => {
         //     route:'404',
         //     enabled:true
         // },
+        // {
+        //     name:'admin',
+        //     route:'admin',
+        //     enabled:true
+        // },
     ]
+
     const style = {
-        header:"transition duration-200 fixed top-0 drop-shadow-xl shadow-black w-screen z-10",
+        header:"w-full transition duration-200 fixed top-0 drop-shadow-xl shadow-black z-10",
         nav:"flex flex-row justify-evenly items-center select-none py-4 text-xl sm:text-2xl bg-title/80 text-white",
         show:"translate-y-0",
         hide:"-translate-y-16",

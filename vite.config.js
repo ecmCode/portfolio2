@@ -4,6 +4,9 @@ import { baseURL } from './routeConfig'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server:{
+    open:baseURL
+  },
   base: baseURL,
   plugins: [react()]
 })

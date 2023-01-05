@@ -7,7 +7,7 @@ function Home() {
       <Header />
       <WelcomePage />
       <About />
-      <Title>Skill</Title>
+      <Title>Skills</Title>
       <Skill />
       <Title>Project</Title>
       <Project />
