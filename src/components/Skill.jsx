@@ -1,43 +1,33 @@
-const SkillBox = (props) => {
-    return (
-        <div className="text-2xl p-6 sm:p-10 shadow-lg ring-primary ring-2 rounded flex flex-col justify-start gap-4 items-center">
-            <div className="text-8xl text-primary drop-shadow-lg">
-                {props.children}
-            </div>
-            
-            <h3>{props.name}</h3>
-        </div>
-    )
-}
-
-
 const Skill = () => {
-    
+    const icons = [
+        {name:'HTML',icon:'fa-brands fa-html5'},
+        {name:'CSS',icon:'fa-brands fa-css3'},
+        {name:'Javascript',icon:'fa-brands fa-square-js'},
+        {name:'React',icon:'fa-brands fa-react'},
+        {name:'Vue',icon:'fa-brands fa-vuejs'},
+        {name:'Python',icon:'fa-brands fa-python'},
+        {name:'Git',icon:'fa-brands fa-git-alt'},
+        {name:'SQL',icon:'fa-solid fa-database'}
+    ]
+    const style = {
+        container: 'grid grid-cols-4 lg:grid-cols-8 justify-items-center p-10 gap-10 w-full bg-secondary border-b-4 border-b-title ',
+        icon: 'transition text-white hover:text-title  hover:-translate-y-2 text-6xl md:text-7xl cursor-pointer text-center',
+        name: 'text-xl pointer-events-none my-2 '
+    }
+
     return(
-        <div className="flex flex-col justify-center items-center w-full ">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-10 gap-10 w-full">
-                
-                <SkillBox name="HTML5">
-                    <i className="fa-brands fa-html5"/>
-                </SkillBox>
-                
-                <SkillBox name="CSS / Tailwind">
-                    <i className="text-8xl fa-brands fa-css3"/>
-                </SkillBox>
-
-                <SkillBox name="Javascript">
-                    <i className="text-8xl fa-brands fa-square-js"></i>
-                </SkillBox>
-
-                <SkillBox name="React">
-                    <i className="text-8xl fa-brands fa-react" />
-                </SkillBox>
-
-                <SkillBox name="Python">
-                    <i className="text-8xl fa-brands fa-python" />
-                </SkillBox>
+            <div className={style.container}>
+                {icons.map(icon => {
+                    return(
+                        <span className={style.icon}>
+                            <i className={icon.icon}/>
+                            <div className={style.name}>
+                                {icon.name}
+                            </div>
+                        </span>
+                    )
+                })}
             </div>
-        </div>
     )
 
 }

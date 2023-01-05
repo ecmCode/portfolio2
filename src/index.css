@@ -13,6 +13,7 @@
         /* Colors */
         text-black bg-white;
         
+        min-width: 280px;
     }
     /* Hide scrollbar */
     ::-webkit-scrollbar{
