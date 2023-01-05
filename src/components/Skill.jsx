@@ -1,3 +1,6 @@
+import {lazy, Suspense} from 'react'
+const SkillIcon = lazy(() => import('./SkillIcon'))
+
 const Skill = () => {
     const icons = [
         {name:'HTML',icon:'fa-brands fa-html5'},
@@ -10,8 +13,8 @@ const Skill = () => {
         {name:'SQL',icon:'fa-solid fa-database'}
     ]
     const style = {
-        container: 'grid grid-cols-4 lg:grid-cols-8 justify-items-center p-10 gap-10 w-full bg-secondary border-b-4 border-b-title ',
-        icon: 'transition text-white hover:text-title  hover:-translate-y-2 text-6xl md:text-7xl cursor-pointer text-center',
+        container: 'grid grid-cols-4 lg:grid-cols-8 justify-items-center p-10 gap-10 w-full bg-secondary border-b-4 border-b-title',
+        icon: 'text-white hover:text-title transition hover:-translate-y-2 text-6xl md:text-7xl cursor-pointer text-center animate-fadein-slow',
         name: 'text-xl pointer-events-none my-2 '
     }
 
@@ -19,12 +22,9 @@ const Skill = () => {
             <div className={style.container}>
                 {icons.map(icon => {
                     return(
-                        <span className={style.icon}>
-                            <i className={icon.icon}/>
-                            <div className={style.name}>
-                                {icon.name}
-                            </div>
-                        </span>
+                        <Suspense fallback={<div></div>}>
+                            <SkillIcon icon={icon} style={style}/>
+                        </Suspense>
                     )
                 })}
             </div>

@@ -36,7 +36,7 @@ const ProjectList = () => {
 const Project = () => {
     
     return(
-        <div className="flex py-4 px-10 justify-center items-center ">
+        <div className="flex py-4 px-10 justify-center items-center animate-fadein-fast">
             <ProjectList />
         </div>    
     )
