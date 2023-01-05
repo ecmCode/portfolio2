@@ -6,5 +6,5 @@ import Skill from './Skill';
 import Project from './Project';
 import BlogPost from './BlogPost';
 import Header from './Header';
-
-export {About, WelcomePage, Title, Footer, Skill, Project, BlogPost, Header};
+import Loading from './Loading';
+export {About, WelcomePage, Title, Footer, Skill, Project, BlogPost, Header, Loading};

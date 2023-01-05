@@ -5,6 +5,7 @@ import { Admin, Blog, Home, NotFound, Projects} from './pages';
 import { baseURL } from '../routeConfig'
 import './index.css'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode id="container">
       <BrowserRouter>
