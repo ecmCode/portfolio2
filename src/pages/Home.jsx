@@ -1,7 +1,15 @@
-import {About, WelcomePage, Project, Title, Skill, Footer, BlogPost, Header} from '../components'
+import { lazy, Suspense } from 'react'
+
+// normal loading
+import { WelcomePage, Title, Footer, Header, Project} from '../components'
+// lazy loading
+const About = lazy(() => import('../components/About'))
+const BlogPost = lazy(() => import('../components/BlogPost'))
+const Skill = lazy(() => import('../components/Skill'))
+
 
 function Home() {
-
+  
   return (
     <>
       <Header />
