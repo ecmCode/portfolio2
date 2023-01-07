@@ -1,44 +1,44 @@
 [
     {
         "title":"Hello World",
-        "background":"url",
-        "author":"author",
-        "date":"date",
+        "background":"",
+        "author":"admin",
+        "date":"2023-1-1",
         "content":"Welcome to my website"
     },
     {
         "title":"What is lorem ipsum - 1",
-        "background":"url",
-        "author":"author",
-        "date":"date",
-        "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "background":"src/assets/cosmos.jpg",
+        "author":"lorem",
+        "date":"2023-1-2",
+        "content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
         "title":"What is lorem ipsum - 2",
-        "background":"url",
-        "author":"author",
-        "date":"date",
-        "content":"It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "background":"src/assets/cosmos.jpg",
+        "author":"lorem",
+        "date":"2023-1-3",
+        "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32."
     },
     {
         "title":"What is lorem ipsum - 3",
-        "background":"url",
-        "author":"author",
-        "date":"date",
-        "content":" It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "background":"src/assets/cosmos.jpg",
+        "author":"lorem",
+        "date":"2023-1-3",
+        "content":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
     },
     {
-        "title":"Where does it come from?",
-        "background":"url",
-        "author":"author",
-        "date":"date",
-        "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+        "title":"Capybara",
+        "background":"src/assets/capybara.jpg",
+        "author":"wikipedia",
+        "date":"2023-1-3",
+        "content":"The capybara or greater capybara (Hydrochoerus hydrochaeris) is a giant cavy rodent native to South America. It is the largest living rodent and a member of the genus Hydrochoerus. The only other extant member is the lesser capybara (Hydrochoerus isthmius). Its close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria. The capybara inhabits savannas and dense forests, and lives near bodies of water. It is a highly social species and can be found in groups as large as 100 individuals, but usually live in groups of 10-20 individuals. The capybara is hunted for its meat and hide and also for grease from its thick fatty skin. It is not considered a threatened species."
     },
     {
-        "title":"ramdom stuff",
-        "background":"url",
-        "author":"author",
-        "date":"date",
+        "title":"random stuff",
+        "background":"",
+        "author":"admin",
+        "date":"2023-1-5",
         "content":"random stuff"
     }
 ]

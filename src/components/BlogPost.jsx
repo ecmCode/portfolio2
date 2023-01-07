@@ -11,16 +11,18 @@ const BlogPost = () => {
     }, []);
     
     return(
-        <div className="p-6 sm:p-20 flex justify-center items-center">
-            <div className=" grid justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-                {posts && posts.map(p => (
-                    <Suspense fallback={<div></div>}>
-                        <BlogPostItem title={p.title}>
-                            {p.content}
-                        </BlogPostItem>
-                    </Suspense>
-                ))}
-            </div>
+        <div className="p-16 lg:p-10 grid justify-center grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-12 drop-shadow-md">
+            {posts && posts.map(p => (
+                <Suspense fallback={<div></div>}>
+                    <BlogPostItem 
+                    title={p.title}
+                    author={p.author}
+                    date={p.date}
+                    background={p.background}>
+                        {p.content}
+                    </BlogPostItem>
+                </Suspense>
+            ))}
         </div>
 
     )
