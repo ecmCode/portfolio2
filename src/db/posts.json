@@ -7,6 +7,20 @@
         "content":"Welcome to my website"
     },
     {
+        "title":"Nothing Special",
+        "background":"",
+        "author":"admin",
+        "date":"2023-1-1",
+        "content":"Just a normal day passing by"
+    },
+    {
+        "title":"Nothing Special",
+        "background":"",
+        "author":"admin",
+        "date":"2023-1-2",
+        "content":"Just a normal day passing by"
+    },
+    {
         "title":"What is lorem ipsum - 1",
         "background":"src/assets/cosmos.jpg",
         "author":"lorem",
@@ -40,5 +54,19 @@
         "author":"admin",
         "date":"2023-1-5",
         "content":"random stuff"
+    },
+    {
+        "title":"Python",
+        "background":"src/assets/code.jpg",
+        "author":"codegeek",
+        "date":"2023-1-6",
+        "content":"Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.\n\nThe Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.\n\nThe Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications."
+    },
+    {
+        "title":"React",
+        "background":"src/assets/code.jpg",
+        "author":"codegeek",
+        "date":"2023-1-6",
+        "content":"React is a JavaScript library for building user interfaces.\n\nDeclarative: React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.\n\nComponent-Based: Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM.\n\nLearn Once, Write Anywhere: We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using Node and power mobile apps using React Native."
     }
 ]
