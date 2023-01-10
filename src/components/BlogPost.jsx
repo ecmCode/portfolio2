@@ -1,4 +1,6 @@
 import { lazy, Suspense, useState, useEffect } from 'react'
+import fallback from "../assets/fallback_wp.jpg"
+
 const BlogPostItem = lazy(() => import('./BlogPostItem'))
 
 const BlogFilter = ({posts, filter, setFilter, filteredPosts}) => {
@@ -72,7 +74,7 @@ const BlogPost = () => {
                         title={p.title}
                         author={p.author}
                         date={p.date}
-                        background={p.background}>
+                        background={fallback}>
                             {p.content}
                         </BlogPostItem>
                     </Suspense>
