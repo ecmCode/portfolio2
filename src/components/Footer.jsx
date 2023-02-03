@@ -4,16 +4,22 @@ import Loading from "./Loading";
 const ContactForm = lazy(() => import('./ContactForm'))
 
 const ContactInfo = () => {
+
+    const data = [
+        {icon: "fa-solid fa-envelope", content: "usermail@mail.com"},
+        {icon: "fa-solid fa-phone", content: "+0 123 4567 890"},
+    ]
+    
     return(
         <section>
-            <p className="text-right">
-                <i className="fa-solid fa-envelope text-xl px-4"/> 
-                usermail@mail.com
-            </p>
-            <p className="text-right">
-                <i className="fa-solid fa-phone text-xl px-4"/>  
-                +0 123 4567 890
-            </p>
+            {data.map(item =>
+                <span className="flex">
+                    <span className="px-4">
+                        <i className={item.icon}/>
+                    </span>
+                    <p>{item.content}</p>    
+                </span>
+            )}
             <p className="text-right italic"> 
                 Some Road, Some City 12345,<br/>
                 Somewhere in the Earth   
@@ -35,10 +41,10 @@ const Icon = () => {
         <section>
             <div className="grid grid-cols-4 lg:grid-cols-2 text-4xl gap-6">
                 {icons.map(icon => 
-                        <a href={icon.url} target="_blank">
-                            <i className={icon.className}/>
-                        </a>
-                    )}
+                    <a href={icon.url} target="_blank">
+                        <i className={icon.className}/>
+                    </a>
+                )}
             </div>
         </section>
     )
